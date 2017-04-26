@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:textSize="20sp"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/mo_start_time_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2017-2-13"
+    />
+    <TextView
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/mo_start_time_show"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/mo_finish_time_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2017-2-13"
+        />
+    <me.grantland.widget.AutofitTextView
+        android:paddingTop="5dp"
+        android:maxLines="3"
+        android:textSize="20sp"
+        app:minTextSize="10sp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/mo_issue"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="hello world"
+        />
+</RelativeLayout>

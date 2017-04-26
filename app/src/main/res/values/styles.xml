@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/Animation_Activity
+    </item>
+    </style>
+    <style name="Animation_Activity"
+        parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/leftin</item>
+        <item name="android:activityOpenExitAnimation">@anim/rightout</item>
+        <item name="android:activityCloseEnterAnimation">@anim/leftin</item>
+        <item name="android:activityCloseExitAnimation">@anim/rightout</item>
+    </style>
+</resources>
